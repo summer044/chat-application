@@ -1,0 +1,160 @@
+/* mutual content */
+body {
+  margin: 0px;
+}
+
+/*gourav header*/
+#head {
+  width: 100%;
+  height: 80px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(54, 54, 54, 0.8);
+  position: fixed;
+  top: 0;
+
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#home {
+  margin-left: 100px;
+}
+.leftitems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+#toplogo {
+  height: 70px;
+  margin-left: 10px;
+}
+
+.hb {
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.a:hover {
+  text-decoration: underline;
+}
+
+.hb:hover {
+  color: rgb(22, 209, 22);
+}
+
+#login:hover {
+  box-shadow: 0px 0px 15px rgb(112, 112, 112);
+}
+
+#signup:hover {
+  box-shadow: 0px 0px 15px rgb(112, 112, 112);
+}
+
+#loginbtn {
+  color: black;
+  text-decoration: none;
+}
+
+#signupbtn {
+  color: black;
+  text-decoration: none;
+}
+
+/* gurpreet main and footer content */
+#aboutMain {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  background-color: rgb(112, 112, 112);
+}
+
+#aboutSub {
+  padding-right: 10%;
+  padding-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  border: 0px solid black;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-right: 0px solid black;
+  border-left: 0px solid black;
+  background-color: rgb(221, 221, 221);
+
+  padding-top: 100px;
+}
+
+#aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: 0px solid black;
+  height: auto;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.sections {
+  border: 0px solid black;
+  height: 250px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(237, 237, 237);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(237, 237, 237);
+  font-weight: bold;
+}
+
+.headings {
+  font-weight: lighter;
+  color: rgb(237, 237, 237);
+}
+
+#applogo {
+  height: 100px;
+}
+
+#image {
+  margin-right: 150px;
+  text-align: left;
+}

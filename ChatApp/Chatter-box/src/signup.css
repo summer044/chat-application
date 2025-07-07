@@ -1,0 +1,259 @@
+/* gurpreet signup content */
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(112, 112, 112);
+}
+
+#main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* gourav header content */
+#head {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(54, 54, 54, 0.8);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  z-index: 1000;
+}
+
+#home {
+  margin-left: 100px;
+}
+
+.leftitems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.a {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 0 10px;
+}
+
+#toplogo {
+  height: 70px;
+  margin-left: 10px;
+}
+
+/**/
+/* Container for buttons */
+.rightButtons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-right: 30px;
+}
+
+/* Button reset */
+.rightButtons button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Anchor styled like button */
+.headerBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 120px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px rgb(186, 186, 186);
+  transition: all 0.3s ease;
+}
+
+.headerBtn:hover {
+  background-color: rgb(65, 65, 200);
+  box-shadow: 0px 0px 10px rgb(55, 55, 187);
+}
+
+.a:hover {
+  text-decoration: underline;
+}
+
+#login:hover,
+#signup:hover {
+  box-shadow: 0px 0px 15px rgb(65, 65, 200);
+}
+
+#loginbtn,
+#signupbtn {
+  color: black;
+  text-decoration: none;
+}
+
+/* gurpreet signup form */
+#container {
+  border: 0px solid black;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background: url("../images/appbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#interface {
+  text-align: center;
+  padding: 50px;
+  margin-top: 120px;
+  height: 370px;
+  width: 270px;
+  line-height: 50px;
+  border-radius: 70px;
+  box-shadow: 0px 0px 20px rgb(43, 43, 43);
+  background: rgba(255, 255, 255, 0.319);
+  position: relative;
+}
+
+#loginLabel {
+  font-size: 32px;
+}
+
+#user,
+#password,
+#email {
+  border: none;
+  box-shadow: 0px 0px 5px rgb(186, 186, 186);
+  border-radius: 50px;
+  height: 30px;
+  width: 250px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+#signupsmall {
+  border-radius: 50px;
+  height: 50px;
+  width: 170px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px rgb(186, 186, 186);
+  background-color: rgb(55, 55, 187);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#label {
+  margin-top: 10px;
+}
+
+#OR {
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Already have an account section */
+#aside {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#account {
+  display: inline-block;
+  font-size: 16px;
+}
+
+#lastLine {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+#lastLine:hover {
+  color: rgb(65, 65, 200);
+}
+
+#last {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+#last:hover {
+  color: rgb(65, 65, 200);
+}
+
+/* gurpreet footer content */
+footer {
+  width: 100%;
+  background-color: rgb(112, 112, 112);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 10px;
+}
+
+.sections {
+  width: 200px;
+  color: rgb(237, 237, 237);
+  font-weight: bold;
+}
+
+.headings {
+  font-weight: lighter;
+  color: rgb(237, 237, 237);
+}
+
+#applogo {
+  height: 100px;
+}
+
+#image {
+  margin-right: 150px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(237, 237, 237);
+  font-weight: bold;
+}
+
+#aside2 {
+  margin-top: 20px;
+  font-size: 12px;
+  color: white;
+}
+/*hello*/
